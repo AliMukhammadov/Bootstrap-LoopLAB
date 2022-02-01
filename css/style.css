@@ -1,0 +1,88 @@
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    height: 100%;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    opacity: 0.8;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+ 
+/* MAIN */
+#hero {
+    min-height: 700px;
+    background-image: url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.dark-overlay {
+    min-height: 700px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-inner {
+    padding-top: 150px;
+}
+
+#hero .fas {
+    color: #008ed6;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#hero form {
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+#hero form input {
+    font-size: 18px;
+}
+
+#explore-connect-section .fas {
+    color: #343a40;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+ 
+#create-your-passion .fas {
+    color: #008ed6;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#share-create .fas {
+    color: #fff;
+    background-color: #343a40;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+.site-footer {
+    background-color: #343a40;
+}
+
